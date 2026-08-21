@@ -208,3 +208,19 @@ p{
     font-size: 15px;
     padding: 20px;
 }
+
+.Status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #075e54;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+}
