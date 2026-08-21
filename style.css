@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0b141a;
+    line-height: 1.6;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  25px;
+    color: #075e54;
+    background-color: #0b141a; 
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo span { color: #062f15; }
+
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #075e54;
+    margin-left: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover { color: #02201b; }
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    padding: 8px 16px;
+    width: 100%;
+    margin: 0 ;
+    background-color: #202c33;
+}
+.btn{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #e9edef;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.chat-item{
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: #0b141a;
+    width: 100%;
+    padding: 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.chat-detail{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chat-title{
+    font-size: 20px;
+    margin-left: 100%;
+    color: #577b92;
+}
+
+
+.chat-time{
+    font-size: 20px;
+    margin-left: 100%;
+    color: #577b92
+}
+
+.chat-mssg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #577b92
+}
+
+.mssg-text{
+    direction: rtl;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.foot{
+    text-align: center;
+    padding: 50px;
+    height: 20px;
+    color: #8696a0; 
+    background: #0b141a;
+
+}
+
+p{
+    font-size: 20px; 
+    padding: 1px;
+}
+
+.heading{
+ color: #075e54;   
+  padding:  25px;
+}
+
+.container{
+    display: flex;
+    gap: 16px;
+    overflow: auto;
+    padding: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-wrapper{
+    position: relative;
+    margin: 25px;
+}
+
+.name{
+    color: #075e54;
+    font-size: 25px;
+    text-align: center;
+}
+
+.channel-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.channel-title{
+    color: #075e54;
+    font-size: 25px;
+}
+
+.explore-btn{
+    background-color: #202c33;
+    color:#075e54;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: background-color 0.2 ease;
+}
+
+.explore-btn :hover
+{
+    background-color: #2a3942;
+}
+
+.more{
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    padding: 8px 16px;
+    width: 100%;
+    margin: 0 ;
+    background-color: #202c33;
+}
+.more-btn{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #e9edef;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.create{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #e9edef;
+    font-size: 15px;
+    padding: 20px;
+}
